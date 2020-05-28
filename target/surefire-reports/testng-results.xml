@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="1545" started-at="2020-05-28T20:14:35Z" finished-at="2020-05-28T20:14:37Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="1545" started-at="2020-05-28T20:14:35Z" finished-at="2020-05-28T20:14:37Z">
+      <class name="org.sherzberg.graylog.aws.inputs.s3.S3CodecTest">
+        <test-method status="PASS" signature="testDecode()[pri:0, instance:org.sherzberg.graylog.aws.inputs.s3.S3CodecTest@31610302]" name="testDecode" duration-ms="148" started-at="2020-05-28T16:14:36Z" finished-at="2020-05-28T16:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecode -->
+      </class> <!-- org.sherzberg.graylog.aws.inputs.s3.S3CodecTest -->
+      <class name="org.sherzberg.graylog.aws.inputs.s3.S3TransportTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.sherzberg.graylog.aws.inputs.s3.S3TransportTest@544fe44c]" name="setup" is-config="true" duration-ms="823" started-at="2020-05-28T16:14:35Z" finished-at="2020-05-28T16:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testHandleLifecyclePauseEvents(org.graylog2.plugin.lifecycles.Lifecycle)[pri:0, instance:org.sherzberg.graylog.aws.inputs.s3.S3TransportTest@544fe44c]" name="testHandleLifecyclePauseEvents" duration-ms="12" started-at="2020-05-28T16:14:36Z" data-provider="pauseEvents" finished-at="2020-05-28T16:14:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paused [LB:ALIVE]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHandleLifecyclePauseEvents -->
+        <test-method status="PASS" signature="testHandleLifecyclePauseEvents(org.graylog2.plugin.lifecycles.Lifecycle)[pri:0, instance:org.sherzberg.graylog.aws.inputs.s3.S3TransportTest@544fe44c]" name="testHandleLifecyclePauseEvents" duration-ms="0" started-at="2020-05-28T16:14:36Z" data-provider="pauseEvents" finished-at="2020-05-28T16:14:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Throttled [LB:THROTTLED]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHandleLifecyclePauseEvents -->
+        <test-method status="PASS" signature="testHandleLifecyclePauseEvents(org.graylog2.plugin.lifecycles.Lifecycle)[pri:0, instance:org.sherzberg.graylog.aws.inputs.s3.S3TransportTest@544fe44c]" name="testHandleLifecyclePauseEvents" duration-ms="0" started-at="2020-05-28T16:14:36Z" data-provider="pauseEvents" finished-at="2020-05-28T16:14:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Failed [LB:DEAD]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHandleLifecyclePauseEvents -->
+        <test-method status="PASS" signature="testHandleLifecyclePauseEvents(org.graylog2.plugin.lifecycles.Lifecycle)[pri:0, instance:org.sherzberg.graylog.aws.inputs.s3.S3TransportTest@544fe44c]" name="testHandleLifecyclePauseEvents" duration-ms="0" started-at="2020-05-28T16:14:36Z" data-provider="pauseEvents" finished-at="2020-05-28T16:14:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Halting [LB:DEAD]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHandleLifecyclePauseEvents -->
+      </class> <!-- org.sherzberg.graylog.aws.inputs.s3.S3TransportTest -->
+      <class name="org.sherzberg.graylog.aws.inputs.s3.notifications.S3SQSClientTest">
+        <test-method status="PASS" signature="testDeleteHappyPath()[pri:0, instance:org.sherzberg.graylog.aws.inputs.s3.notifications.S3SQSClientTest@71318ec4]" name="testDeleteHappyPath" duration-ms="544" started-at="2020-05-28T16:14:36Z" finished-at="2020-05-28T16:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteHappyPath -->
+      </class> <!-- org.sherzberg.graylog.aws.inputs.s3.notifications.S3SQSClientTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

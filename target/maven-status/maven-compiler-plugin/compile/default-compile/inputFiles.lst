@@ -1,0 +1,14 @@
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/plugin/S3InputPluginModule.java
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/json/SQSMessage.java
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/inputs/s3/notifications/S3SNSNotificationParser.java
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/inputs/s3/S3Codec.java
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/config/AWSPluginConfiguration.java
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/plugin/S3InputPluginMetaData.java
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/plugin/S3InputPlugin.java
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/inputs/s3/S3Input.java
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/inputs/s3/S3Reader.java
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/inputs/s3/S3Transport.java
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/json/S3Record.java
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/inputs/s3/notifications/S3SNSNotification.java
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/inputs/s3/S3Subscriber.java
+/Users/savagete/Documents/projects/graylog-plugin-s3/src/main/java/org/sherzberg/graylog/aws/inputs/s3/notifications/S3SQSClient.java
