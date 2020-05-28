@@ -40,6 +40,7 @@ public class S3Transport extends ThrottleableTransport {
     private static final String CK_SQS_NAME = "aws_sqs_queue_name";
     private static final String CK_ACCESS_KEY = "aws_access_key";
     private static final String CK_SECRET_KEY = "aws_secret_key";
+    private static final String CK_ASSUME_ROLE_ARN = "aws_assume_role_arn";
     private static final String CK_THREAD_COUNT = "aws_thread_count";
 
     private static final Regions DEFAULT_REGION = Regions.US_EAST_1;
@@ -106,6 +107,7 @@ public class S3Transport extends ThrottleableTransport {
                 input,
                 input.getConfiguration().getString(CK_ACCESS_KEY),
                 input.getConfiguration().getString(CK_SECRET_KEY),
+                input.getConfiguration().getString(CK_ASSUME_ROLE_ARN),
                 input.getConfiguration().getInt(CK_THREAD_COUNT)
         );
 
@@ -195,6 +197,14 @@ public class S3Transport extends ThrottleableTransport {
                     "Number of processing threads to pool for SQS/S3 reading",
                     ConfigurationField.Optional.NOT_OPTIONAL,
                     NumberField.Attribute.ONLY_POSITIVE
+            ));
+
+            r.addField(new TextField(
+                    CK_ASSUME_ROLE_ARN,
+                    "AWS assume role ARN",
+                    "",
+                    "The role ARN with required permissions (cross account access)",
+                    ConfigurationField.Optional.OPTIONAL
             ));
 
             return r;

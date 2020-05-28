@@ -36,7 +36,7 @@ public class S3Subscriber extends Thread {
     private final S3SQSClient subscriber;
     private final S3Reader s3Reader;
 
-    public S3Subscriber(Region sqsRegion, Region s3Region, String queueName, MessageInput sourceInput, String accessKey, String secretKey, int threadCount) {
+    public S3Subscriber(Region sqsRegion, Region s3Region, String queueName, MessageInput sourceInput, String string, String accessKey, String secretKey, int threadCount) {
         this.sourceInput = sourceInput;
 
         this.subscriber = new S3SQSClient(
